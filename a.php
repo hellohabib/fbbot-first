@@ -11,7 +11,7 @@ exit;
 
 }
 
-
+/*
 $accessToken='EAAvSbYS7MZBEBAIhabvDK3LKFeWgEcnevTe9RZBCpo7SHtyT6fi1yseQidvpnej7QNGPMJS9mOORhG6i2mcC7ZCWpWZCXUtItlcUcUpMuRRLi0ZBUtp6MI8FZCV9m2tHBKUAM6cQjB9M3Ih5BMJPIfqZCnYzxBHOJUmCh8kGppsmTAKTmiQZAlJA';
 
 $input= json_decode(file_get_contents("php://input"), true);
@@ -41,5 +41,5 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
 if(!empty($input['entry'][0]['messaging'][0]['message'])){
 	curl_exec($ch);
 }
-
+*/
 ?>
