@@ -20,7 +20,7 @@ $userID=$input['entry'][0]['messaging'][0]['sender']['id'];
 
 $message=$input['entry'][0]['messaging'][0]['message']['text'];
 //echo $userID;
-//echo $message;
+echo $message;
 
 
 
