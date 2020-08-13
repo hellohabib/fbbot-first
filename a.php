@@ -30,7 +30,7 @@ $jsonData="{
 		'id':$userID
 	},
 	'message':{
-	'text':'Alhamdulillah'
+	'text':'আলহামদুলিল্লাহ'
 	}
 }";
 
